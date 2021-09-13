@@ -13,6 +13,12 @@
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
+    "paths": {
+      "@alex-apps-dev/optimized-http-client": [
+        "dist/optimized-http-client",
+        "dist/optimized-http-client/*"
+      ]
+    },
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
